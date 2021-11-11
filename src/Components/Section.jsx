@@ -44,6 +44,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   background-image: ${(props) => `url("/images/${props.bgImage}")`};
+  background-zoom: 10%;
 `;
 const ItemText = styled.div`
   padding-top: 15vh;
@@ -65,6 +66,7 @@ const LeftButton = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 100px;
+  border: none;
   opacity: 0.85;
   text-transform: uppercase;
   font-size: 12px;
@@ -79,6 +81,7 @@ const RightButton = styled(LeftButton)`
 const DownArrow = styled.img`
   height: 40px;
   overflow-x: hidden;
+  margin-bottom: 30px;
   animation: animateDown infinite 1.5s;
 `;
 const Buttons = styled.div``;
