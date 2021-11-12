@@ -113,6 +113,9 @@ const RightMenu = styled.div`
 
     margin-right: 10px;
   }
+  ${Menu}:hover & {
+    background-color: #f5f5f5;
+  }
 `;
 
 const MenuNav = styled.div`
